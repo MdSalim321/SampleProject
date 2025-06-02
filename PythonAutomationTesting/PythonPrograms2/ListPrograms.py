@@ -1,0 +1,20 @@
+list = [1,5,3,4]
+
+print(list)
+print(list[-1])
+list[1] = 10
+print(list)
+list.append(5)
+print(list)
+list.insert(2, 8)
+print(list)
+list.remove(4)
+print(list)
+list.reverse()
+print(list)
+list.sort()
+print(list)
+print(sum(list))
+print(max(list))
+print(min(list))
+print(20 in list)
