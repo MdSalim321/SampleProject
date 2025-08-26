@@ -17,14 +17,14 @@ try:
     time.sleep(2)  # Wait for page to load
 
     # Check title
-    expected_title = "Googl"
+    expected_title = "Google"
     actual_title = driver.title
     print("Page:", actual_title)
 
     assert actual_title == expected_title, "Title does not match!"
 
 except AssertionError as e:
-    driver.save_screenshot("ScreenShotFolder/ScreenShot5.png")
+    driver.save_screenshot("ScreenShotFolder/ScreenShot7.png")
 
 finally:
     # Close browser

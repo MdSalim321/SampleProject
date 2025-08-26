@@ -18,6 +18,6 @@ try:
 
 except AssertionError as f:
 
-    driver.save_screenshot("ScreenShotFolder4/screenshot2.jpg")
+    driver.save_screenshot("ScreenShotFolder/screenshot7.jpg")
 finally:
     driver.quit()

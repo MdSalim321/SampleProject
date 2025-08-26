@@ -1,7 +1,6 @@
-import math
-name = input("Enter your name: ")
-print(f"Hello{name}")
+fileName = "DataSet/InputFile.txt"
+with open(fileName) as fileObject:
+    lines = fileObject.readline()
 
-x = input("Enter a number: ")
-y = math.sqrt(float(x))
-print(y)
+for line in lines:
+    print(line)

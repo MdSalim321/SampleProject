@@ -8,7 +8,6 @@ print(type(lst))
 list = ["Apple", 1, True, "Banana"]
 print(list)
 
-
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[0:5])
 
